@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+}
+#wel{
+	width:1000px;
+	height:400px;
+	position: absolute;
+	background-color:#C97840;
+}
+#wel:hover{
+	-webkit-transition: all 10s ease-in-out;
+	-ms-transition: all 10s ease-in-out;
+	transition: all 10s ease-in-out;
+	-webkit-transform: scaleY(0.1);
+	-webkit-transform-origin:0 0 0;
+	-ms-transform: scaleY(0.1);
+	-ms-transform-origin:0 0 0;
+	transform: scaleY(0.1);
+	transform-origin:0 0 0;
+}
+#chenggong{
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:200px;
+	height:20px;
+	background-color:#C97840;
+	-webkit-transform: scale(0);
+	-webkit-transform-origin:0 0 0;
+	-ms-transform: scale(0);
+	-ms-transform-origin:0 0 0;
+	transform: scale(0);
+	transform-origin:0 0 0;
+	-webkit-transition: all 20s ease-in-out;
+	-ms-transition: all 20s ease-in-out;
+	transition: all 20s ease-in-out;
+	}
+.denglu{
+	-webkit-transform: scale(0.1);
+	-webkit-transform-origin:0 0 0;
+	-ms-transform: scale(0.1);
+	-ms-transform-origin:0 0 0;
+	transform: scale(0.1);
+	transform-origin:0 0 0;
+}
+.denglu:hover{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#toubu{
+	background:url(../img/toubumutou.png) no-repeat;	
+    background-size:100% 100%;
+	position: absolute;
+	-webkit-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	
+	
+	-webkit-transform: scaleY(0.1);
+	-webkit-transform-origin:0 0 0;
+	-ms-transform: scaleY(0.1);
+	-ms-transform-origin:0 0 0;
+	transform: scaleY(0.1);
+	transform-origin:0 0 0;
+}
+#toubu:hover{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#toubuul li{
+	list-style: none;
+	float:left;
+	margin-left:10%;
+}
+#zuo{
+	border-radius: 5px;	
+	position:absolute;
+	width:250px;
+	height:200px;
+	top:35%;
+	left:2.4%;
+	border: 5px solid #C97840;
+	background-color:#252524;
+	-webkit-transform: scaleX(0.1);
+	-webkit-transform-origin:0 0 0;
+	-ms-transform: scaleX(0.1);
+	-ms-transform-origin:0 0 0;
+	transform: scaleX(0.1);
+	transform-origin:0 0 0;
+}
+#zuo:hover{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#zuop{
+	width: 240px;
+    height: 168px;
+	color:white;
+	font-family:幼圆;
+	margin-left:10px;
+	
+}
+#zuod{
+	width:40px;
+	height:200px;
+	position:absolute;
+	right:0;
+	top:0;
+	background-color:#D37F49;
+}
+#you{
+	border-radius: 5px
+	width:150px;
+	height:90px;
+	position:absolute;
+	top:45%;
+	right:2.4%;
+	
+	-webkit-transform: scaleX(0.1);
+	-webkit-transform-origin:right 0 0;
+	-ms-transform: scaleX(0.1);
+	-ms-transform-origin:right 0 0;
+	transform: scaleX(0.1);
+	transform-origin:right 0 0;
+}
+#you:hover{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+#zhong{
+	background:url(../img/65310.png) no-repeat;
+	-moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+#xia{
+	background:url(../img/toubumutou.png) no-repeat;	
+    background-size:100% 100%;
+}
+#tupian{
+	box-shadow: 2px 2px 2px 2px rgb(239, 239, 239); 
+	height:85%; width: 83%; 
+	margin-left: 7%;
+	background:url(../img/ulbeijing.jpg) no-repeat;	
+    background-size:100% 100%;
+}
+#tupian li{
+	width: 15%;
+	height:22%;
+	list-style: none;
+	float:left;
+	margin-left:1%;
+	margin-top:1%;
+	box-shadow: 2px 2px 2px 2px #EFEFEF;
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	}
+#tupian li:hover{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+#wanshou{
+	box-shadow: 2px 2px 2px 2px #EFEFEF;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);	
+}
+.name{
+	position: relative;
+    top: 102%;
+	width:100%;
+	height:20px;
+	background-color:#E9E9E9;
+
+}
+#tupian li:hover #wanshou{
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+li img{
+	width: 100%;
+	height:100%;
+}
+#more{
+	background:url(../img/benjizhao.jpg) no-repeat;	
+    background-size:100% 100%;
+}
+	
